@@ -1,0 +1,4 @@
+# VIA / QMK keyboards — allow non-root HID access
+# Space80 (vendor 0x000D, product 0x1969)
+KERNEL=="hidraw*", ATTRS{idVendor}=="000d", ATTRS{idProduct}=="1969", TAG+="uaccess", GROUP="users", MODE="0660"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="000d", ATTRS{idProduct}=="1969", TAG+="uaccess", GROUP="users", MODE="0660"
