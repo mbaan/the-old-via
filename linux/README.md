@@ -8,7 +8,7 @@ Tested on CachyOS / Arch with Wine 11.7 and `7zip` 26.x.
 sudo pacman -S --needed wine 7zip
 ```
 
-Download `via-1.3.1-win.exe` from https://github.com/the-via/releases/releases/tag/v1.3.1 and drop it in the repo root. (Linux `.deb` and source are no longer available upstream.)
+Download `via-1.3.1-win.exe` from https://github.com/mbaan/the-old-via/releases/tag/v1.3.1 and drop it in the repo root. (Linux `.deb` and source are no longer available upstream.)
 
 ## 1. Extract the app
 
